@@ -79,36 +79,93 @@
 
 
 
-  <!-- contact section -->
-  <section class="contact_section layout_padding">
-    <div class="container-fluid">
-      <div class="row">
-        <div class=" col-md-6">
-          <div id="map" class="h-100 w-100 ">
-          </div>
+
+
+  <!-- service section -->
+  <section class="service_section layout_padding-top">
+    <div class="container">
+      <div class="service_detail">
+        <h3>
+          We
+        </h3>
+        <h2>
+          we provide service
+        </h2>
+      </div>
+      <div class="service_img-container">
+        <div class="service_img-box i-box-1">
+          <a href=""> Bank security</a>
         </div>
-        <div class=" col-md-6 contact_form-container">
-          <div class="contact_box">
-            <form action="">
-              <input type="text" placeholder="Your Name">
-              <input type="email" placeholder="Email">
-              <input type="text" placeholder="Phone Number">
-              <input type="text" placeholder="Message">
-              <div>
-                <button type="submit">
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
+        <div class="service_img-box i-box-2">
+          <a href="">society Guard </a>
+        </div>
+        <div class="service_img-box i-box-3">
+          <a href="">Hotel Security </a>
+        </div>
+        <div class="service_img-box i-box-4">
+          <a href=""> Home security</a>
         </div>
       </div>
-
-    </div>
+      <div class="service_btn">
+        <a href="">
+          <span>
+            Read More
+          </span>
+          <img src="images/arrow-black.png" alt="" class="ml-2" />
+        </a>
+      </div>
     </div>
   </section>
+  <!-- end service section -->
 
-  <!-- end contact section -->
+  <!-- security section -->
+
+  <section class="security_section layout_padding">
+    <h3>
+      Security
+
+
+    </h3>
+    <h2>
+      Our Guard
+    </h2>
+    <div class="security_container">
+      <div class="carousel-wrap">
+        <div class="owl-carousel">
+          <div class="item">
+            <div class="security_img-box i-box-1">
+              <a href=""> View More</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="security_img-box i-box-2">
+              <a href=""> View More</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="security_img-box i-box-3">
+              <a href=""> View More</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="security_btn">
+      <a href="">
+        <span>
+          Read More
+        </span>
+        <img src="images/arrow-black.png" alt="" class="ml-2" />
+      </a>
+    </div>
+  </section>
+  <!-- end security section -->
+
+
+
+
+
 
   <!-- info section -->
   <section class="info_section layout_padding">
@@ -244,33 +301,7 @@
     });
   </script>
 
-  <script>
-    // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-    // Australia.
-    function initMap() {
-      var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 11,
-        center: {
-          lat: 40.645037,
-          lng: -73.880224
-        },
-      });
 
-      var image = 'images/maps-and-flags.png';
-      var beachMarker = new google.maps.Marker({
-        position: {
-          lat: 40.645037,
-          lng: -73.880224
-        },
-        map: map,
-        icon: image
-      });
-    }
-  </script>
-  <!-- google map js -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
-  </script>
-  <!-- end google map js -->
 
 </body>
 
